@@ -1,9 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
--- Dumped by pg_dump version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -263,7 +257,5 @@ ALTER TABLE ONLY public.appointments
     ADD CONSTRAINT appointments_service_id_fkey FOREIGN KEY (service_id) REFERENCES public.services(service_id);
 
 
---
--- PostgreSQL database dump complete
---
+
 
